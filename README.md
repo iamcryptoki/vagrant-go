@@ -59,7 +59,7 @@ vagrant up
 Once the virtual machine is up and running, you can connect to it via SSH with the following command:
 
 ```sh
-vagrant ssh vm_name
+vagrant ssh
 ```
 
 ### Stop the Virtual Machine
