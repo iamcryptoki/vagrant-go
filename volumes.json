@@ -1,0 +1,14 @@
+[
+  {
+    "host": "/path/on/host/1",
+    "guest": "/path/on/guest/1",
+    "type": "rsync",
+    "id": "folder1"
+  },
+  {
+    "host": "/path/on/host/2",
+    "guest": "/path/on/guest/2",
+    "type": "rsync",
+    "id": "folder2"
+  }
+]
