@@ -87,7 +87,7 @@ This environment uses a `.env` file to manage environment variables. The followi
 - `VAGRANT_CONFIG_MEMORY`: The amount of memory (in MB) to allocate to the virtual machine (defaults to 1024).
 - `VAGRANT_CONFIG_SYNCED_FOLDERS_FILE`: The path to the JSON file containing the synced folder configuration (defaults to `./volumes.json`).
 
-Exemple `.env` file:
+Example `.env` file:
 
 ```sh
 GO_VERSION="1.20"
@@ -107,7 +107,7 @@ The JSON file should contain an array of objects, where each object represents a
 - `type`: The type of synced folder (e.g., rsync, virtualbox).
 - `id`: An optional ID for the synced folder.
 
-Exemple `volumes.json`:
+Example `volumes.json`:
 
 ```json
 [
